@@ -1,0 +1,29 @@
+{
+  "biomas": [
+    {
+      "id": 1,
+      "nome": "Mata Atlântica",
+      "descricao": "Bioma rico em biodiversidade, com florestas tropicais e subtropicais."
+    },
+    {
+      "id": 2,
+      "nome": "Cerrado",
+      "descricao": "Bioma de savana tropical, caracterizado por vegetação xerófila."
+    },
+    {
+      "id": 3,
+      "nome": "Amazônia",
+      "descricao": "Maior floresta tropical do mundo, com alta biodiversidade."
+    },
+    {
+      "id": 4,
+      "nome": "Pampa",
+      "descricao": "Bioma de campos abertos, predominante no sul do Brasil."
+    },
+    {
+      "id": 5,
+      "nome": "Pantanal",
+      "descricao": "Maior área alagável do mundo, rica em fauna e flora aquática."
+    }
+  ]
+}

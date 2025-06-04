@@ -1,0 +1,29 @@
+{
+  "especies": [
+    {
+      "id": 1,
+      "nome_cientifico": "Araucaria angustifolia",
+      "nome_popular": "Pinheiro-do-Paraná"
+    },
+    {
+      "id": 2,
+      "nome_cientifico": "Caesalpinia echinata",
+      "nome_popular": "Pau-brasil"
+    },
+    {
+      "id": 3,
+      "nome_cientifico": "Dalbergia nigra",
+      "nome_popular": "Jacarandá-da-bahia"
+    },
+    {
+      "id": 4,
+      "nome_cientifico": "Swietenia macrophylla",
+      "nome_popular": "Mogno"
+    },
+    {
+      "id": 5,
+      "nome_cientifico": "Aspidosperma polyneuron",
+      "nome_popular": "Peroba-rosa"
+    }
+  ]
+}

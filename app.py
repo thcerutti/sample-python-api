@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+import json
 
 app = Flask(__name__)
 
@@ -7,17 +8,19 @@ app = Flask(__name__)
 def home():
     return "Hello, Flask API!"
 
-# Example API endpoint (GET)
-@app.route('/api/greet', methods=['GET'])
-def greet():
-    name = request.args.get('name', 'World')
-    return jsonify(message=f"Hello, {name}!")
+# Lista os biomas disponíveis
+@app.route('/api/biomas', methods=['GET'])
+def buscar_biomas():
+    with open('data/biomas.json') as arquivo:
+        data = json.load(arquivo)
+    return jsonify(data)
 
-# Example API endpoint (POST)
-@app.route('/api/echo', methods=['POST'])
-def echo():
-    data = request.get_json()
-    return jsonify(received=data)
+# Busca especies em extinção
+@app.route('/api/especies', methods=['GET'])
+def buscar_especies():
+    with open('data/especies.json') as arquivo:
+        data = json.load(arquivo)
+    return jsonify(data)
 
 if __name__ == '__main__':
     app.run(debug=True)
