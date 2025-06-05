@@ -33,4 +33,15 @@ Para colocar a API para funcionar, use o comando abaixo:
 python app.py
 ```
 
+## Testando as rotas
+
+Você pode testar no navegador ou usando ferramentas como o Postman ou o Insomnia. Aqui estão algumas rotas que você pode acessar:
+- `GET /`: Retorna uma mensagem de boas-vindas.
+- `GET /api/biomas`: Retorna a lista de biomas.
+- `GET /api/especies`: Retorna a lista de espécies em extinção.
+
+Estas rotas estão em um ambiente de testes da Vercel e podem ser acessadas pelo endereço:
+- [https://sample-python-api-eta.vercel.app/api/biomas](https://sample-python-api-eta.vercel.app/api/biomas)
+- [https://sample-python-api-eta.vercel.app/api/especies](https://sample-python-api-eta.vercel.app/api/especies)
+
 Pronto! Agora é só explorar, testar e se divertir aprendendo. Se tiver dúvidas, não hesite em perguntar. Bons estudos e sucesso na entrega do seu projeto! 😄
