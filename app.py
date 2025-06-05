@@ -8,7 +8,7 @@ CORS(app)  # Allow all origins
 # Sample route
 @app.route('/')
 def home():
-    return "Hello, Flask API!"
+    return jsonify({"message": "hello world"})
 
 # Lista os biomas disponíveis
 @app.route('/api/biomas', methods=['GET'])
