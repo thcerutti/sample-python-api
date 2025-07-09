@@ -39,6 +39,7 @@ Você pode testar no navegador ou usando ferramentas como o Postman ou o Insomni
 - `GET /`: Retorna uma mensagem de boas-vindas.
 - `GET /api/biomas`: Retorna a lista de biomas.
 - `GET /api/especies`: Retorna a lista de espécies em extinção.
+- `GET /api/noticias`: Retorna as últimas notícias sobre meio ambiente do feed de notícias [do jornal da USP](https://jornal.usp.br/tag/ecologia/feed/).
 
 Estas rotas estão em um ambiente de testes da Vercel e podem ser acessadas pelo endereço:
 - [https://sample-python-api-eta.vercel.app/api/biomas](https://sample-python-api-eta.vercel.app/api/biomas)
