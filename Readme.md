@@ -43,5 +43,6 @@ Você pode testar no navegador ou usando ferramentas como o Postman ou o Insomni
 Estas rotas estão em um ambiente de testes da Vercel e podem ser acessadas pelo endereço:
 - [https://sample-python-api-eta.vercel.app/api/biomas](https://sample-python-api-eta.vercel.app/api/biomas)
 - [https://sample-python-api-eta.vercel.app/api/especies](https://sample-python-api-eta.vercel.app/api/especies)
+- [https://sample-python-api-eta.vercel.app/api/noticias](https://sample-python-api-eta.vercel.app/api/noticias)
 
 Pronto! Agora é só explorar, testar e se divertir aprendendo. Se tiver dúvidas, não hesite em perguntar. Bons estudos e sucesso na entrega do seu projeto! 😄
